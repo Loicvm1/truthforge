@@ -1,0 +1,5 @@
+streamlit==1.55.0
+transformers[torch]
+torch
+sentencepiece
+safetensors
