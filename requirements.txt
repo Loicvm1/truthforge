@@ -3,3 +3,5 @@ transformers[torch]
 torch
 sentencepiece
 safetensors
+feedparser
+datasets
