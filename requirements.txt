@@ -5,3 +5,4 @@ sentencepiece
 safetensors
 feedparser
 datasets
+newspaper4k
