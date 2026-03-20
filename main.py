@@ -146,7 +146,7 @@ st.markdown("""
         font-weight: 700;
         letter-spacing: 0.2em;
         text-transform: uppercase;
-        color: var(--ink-light);
+        color: var(--ink);
     }
 
     /* --- Intro --- */
@@ -602,28 +602,6 @@ def fetch_live_real_news():
         except Exception:
             continue
     return None, None
-
-
-# =============================================
-#  CURATED FALLBACKS
-# =============================================
-FALLBACK_REAL = [
-    {"t": "Federal Reserve Raises Interest Rates by Quarter Point Amid Inflation Concerns",
-     "c": "The Federal Reserve announced on Wednesday that it would raise its benchmark interest rate by a quarter of a percentage point, bringing the target range to between 5.25 and 5.5 percent. The decision, which was widely anticipated by financial markets, reflects the central bank's ongoing effort to bring inflation closer to its two percent target. Fed Chair Jerome Powell said in a press conference that while inflation has moderated in recent months, it remains above the level the committee considers consistent with price stability."},
-    {"t": "European Union Passes Landmark Artificial Intelligence Regulation",
-     "c": "The European Parliament voted overwhelmingly on Wednesday to approve the Artificial Intelligence Act, making the European Union the first major jurisdiction to establish a comprehensive legal framework governing the development and deployment of artificial intelligence systems. The legislation classifies AI applications into categories based on risk level, with the strictest requirements applied to systems used in law enforcement, hiring, and critical infrastructure."},
-    {"t": "India Successfully Lands Chandrayaan-3 Spacecraft Near Lunar South Pole",
-     "c": "India's space agency ISRO made history on Wednesday when its Chandrayaan-3 spacecraft successfully landed near the south pole of the Moon, making India the fourth country to achieve a soft lunar landing and the first to reach the lunar south polar region. The Vikram lander touched down at approximately six eighteen in the evening Indian Standard Time after a tense final descent."},
-]
-
-FALLBACK_FAKE = [
-    {"t": "Pentagon Insiders Reveal Secret Plan to Deploy Troops on U.S. Soil Ahead of Elections",
-     "c": "Multiple unnamed sources within the Department of Defense have reportedly disclosed a classified contingency plan to station National Guard units in major American cities in the weeks leading up to the next general election. The plan, allegedly codenamed Operation Civic Shield, is said to include surveillance of protest groups and the authority to impose localized curfews."},
-    {"t": "FDA Covered Up Study Linking Common Vaccine Preservative to Neurological Damage",
-     "c": "A controversial report circulating on social media claims that the Food and Drug Administration deliberately buried a major clinical study showing a direct link between thimerosal, a preservative used in some vaccines, and long-term neurological impairment in children."},
-    {"t": "Federal Reserve Exposed in Secret Deal to Manipulate Inflation Data",
-     "c": "A former analyst at the Federal Reserve Bank of New York has come forward with claims that senior officials systematically adjusted the methodology for calculating the Consumer Price Index to understate the true rate of inflation."},
-]
 
 
 # =============================================
