@@ -5,6 +5,4 @@ sentencepiece
 safetensors
 feedparser
 datasets
-libxml2-dev
-libxslt1-dev
-newspaper4k
+
